@@ -1,0 +1,1 @@
+rm -f *.jar ./bin/*.class && javac src/*.java -d bin/ && jar cfm client.jar Manifest.txt bin/ && java -jar client.jar;
